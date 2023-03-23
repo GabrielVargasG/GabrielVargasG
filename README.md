@@ -15,7 +15,7 @@ const Gabriel = {
             native: ["Android Development", "IOS Development"]
             frameworks: ["React Native"]
         },
-        devOps: ["AWS", "Docker🐳", "Heroku"],
+        devOps: ["AWS", "Docker", "Heroku"],
         databases: ["mongo", "MySql"],
         misc: ["Firebase"]
     }
