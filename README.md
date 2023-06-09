@@ -16,18 +16,31 @@
 ```javascript
 const Gabriel = {
     pronouns: "He" | "Him",
-    code: ["Javascript", "Python", "Java", "React"],
+    code: ["C++", "Python", "Java", "PHP", "JavaScript"],
     technologies: {
+        frontEnd: {
+            code: ["ReactJS", "JavaScript", "TypeScript", "HTML5"],
+            style: ["SASS", "CSS3", "Bootstrap"],
+            tools: ["Figma", "Illustrator", "Adobe XD"]
+        },
         backEnd: {
-            js: ["Node JS", "Express"],
+            code: ["Node.js", "Express"],
+            tools: ["Git", "Heroku", "Docker", "Linux"]
         },
         mobileApp: {
-            native: ["Android Development", "IOS Development"]
-            frameworks: ["React Native"]
+            native: ["Android Development", "IOS Development"],
+            frameworks: ["React Native"],
+            tools: ["Xcode", "Android Studio"]
         },
-        devOps: ["AWS", "Docker", "Heroku"],
-        databases: ["mongo", "MySql"],
-        misc: ["Firebase"]
+        devOps: {
+            tools: ["AWS", "Docker", "Heroku"]
+        },
+        databases: ["MariaDB", "MongoDB", "MySQL"],
+        ai-ml:{
+            code: ["Python", "Lisp",  "Prolog"],
+            tools: ["Google Colab"]
+        },
+	    other: ["Git", "Linux", "Arduino", "Raspberry", "Postman"]
     }
 };
 ```
